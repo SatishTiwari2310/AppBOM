@@ -32,7 +32,6 @@ public class AddBOM implements IEventAction {
 			System.out.println("bomTable:"+bomTable);
 		} catch (APIException e) {
 			// TODO Auto-generated catch block
-			//Satish
 			//e.printStackTrace();
 		}
 		// TODO Auto-generated method stub

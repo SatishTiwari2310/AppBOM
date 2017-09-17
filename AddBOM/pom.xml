@@ -17,7 +17,7 @@
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.7.0</version>
+				<version>3.6.1</version>
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
@@ -33,7 +33,7 @@
 				<artifactId>AgileAPI</artifactId>
 				<version>1.0</version>
 				<scope>system</scope>
-				<systemPath>${basedir}/lib/AgileAPI.jar</systemPath>
+				<systemPath>${basedir}\src\lib\AgileAPI.jar</systemPath>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

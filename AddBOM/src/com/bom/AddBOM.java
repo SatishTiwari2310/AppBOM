@@ -31,10 +31,8 @@ public class AddBOM implements IEventAction {
 			ITable bomTable = addBOM(itemParent, itemChild1, itemChild2);
 			System.out.println("bomTable:"+bomTable);
 		} catch (APIException e) {
-			// TODO Auto-generated catch block
-			//e.printStackTrace();
+			e.printStackTrace();
 		}
-		// TODO Auto-generated method stub
 		ActionResult actionResult = new ActionResult(ActionResult.STRING, "Added to the parent part");
 		return new EventActionResult(request, actionResult);
 	}

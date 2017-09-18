@@ -24,7 +24,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-
 	</build>
 	<dependencyManagement>
 		<dependencies>
@@ -33,7 +32,7 @@
 				<artifactId>AgileAPI</artifactId>
 				<version>1.0</version>
 				<scope>system</scope>
-				<systemPath>${basedir}\src\lib\AgileAPI.jar</systemPath>
+				<systemPath>${pom.basedir}/src/lib/AgileAPI.jar</systemPath>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

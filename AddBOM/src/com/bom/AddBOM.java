@@ -22,6 +22,10 @@ public class AddBOM implements IEventAction {
 			IEventInfo request) {
 
 		try {
+			String name = null;
+			if (name==null) {
+				System.out.println("Hi");
+			}
 			IItem itemParent = createItem(session, parent);
 			System.out.println("itemParent12:" + itemParent);
 			IItem itemChild1 = createItem(session, child1);

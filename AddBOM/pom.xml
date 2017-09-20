@@ -25,15 +25,13 @@
 			</plugin>
 		</plugins>
 	</build>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>AgileAPI</groupId>
-				<artifactId>AgileAPI</artifactId>
-				<version>1.0</version>
-				<scope>system</scope>
-				<systemPath>${pom.basedir}/src/lib/AgileAPI.jar</systemPath>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>com.agile</groupId>
+			<artifactId>agileAPI</artifactId>
+			<systemPath>C:\Users\st00342171\git\AppBOM\AddBOM\lib\agileAPI.jar</systemPath>
+			<version>3.6</version>
+			<scope>system</scope>
+		</dependency>
+	</dependencies>
 </project>
